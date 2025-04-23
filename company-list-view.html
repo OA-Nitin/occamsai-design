@@ -1,0 +1,1010 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>OCCAMS AI</title>
+
+    <!-- Custom fonts for this template-->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link
+        href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+        rel="stylesheet">
+
+    <!-- Google font family -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+    <!-- Custom styles for this template-->
+    <link href="css/sb-admin-2.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+    <!-- Page Wrapper -->
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <ul class="navbar-nav sidebar sidebar-dark accordion" id="accordionSidebar">
+
+            <!-- Sidebar - Brand -->
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+                <div class="sidebar-brand-icon">
+                    <img src="img/logo.svg" alt="">
+                </div>
+
+            </a>
+
+            <!-- Divider -->
+            <hr class="sidebar-divider my-0">
+
+            <!-- Nav Item - Dashboard -->
+            <li class="nav-item">
+                <a class="nav-link" href="dashboard.html">
+                    <i class="fas fa-fw fa-tachometer-alt"></i>
+                    <span>Dashboard</span></a>
+            </li>
+
+            <!-- Nav Item - Company List -->
+            <li class="nav-item active">
+                <a class="nav-link" href="company-list.html">
+                    <i class="fas fa-fw fa-chart-area"></i>
+                    <span>Compnay</span></a>
+            </li>
+
+            <!-- Nav Item - Pages Collapse Menu -->
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo"
+                    aria-expanded="true" aria-controls="collapseTwo">
+                    <i class="fas fa-fw fa-cog"></i>
+                    <span>Components</span>
+                </a>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+                    <div class="bg-white py-2 collapse-inner rounded">
+                        <a class="collapse-item" href="buttons.html">Buttons</a>
+                        <a class="collapse-item" href="cards.html">Cards</a>
+                    </div>
+                </div>
+            </li>
+
+
+
+
+        </ul>
+        <!-- End of Sidebar -->
+
+        <!-- Content Wrapper -->
+        <div id="content-wrapper" class="d-flex flex-column">
+
+            <!-- Main Content -->
+            <div id="content">
+
+                <!-- Topbar -->
+                <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+
+                    <!-- Sidebar Toggle (Topbar) -->
+                    <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
+                        <i class="fa fa-bars"></i>
+                    </button>
+
+                    <!-- Topbar Search -->
+                    <form
+                        class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
+                        <div class="input-group">
+                            <input type="text" class="form-control bg-light border-0 small" placeholder="Search for..."
+                                aria-label="Search" aria-describedby="basic-addon2">
+                            <div class="input-group-append">
+                                <button class="btn btn-primary" type="button">
+                                    <i class="fas fa-search fa-sm"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+
+                    <!-- Topbar Navbar -->
+                    <ul class="navbar-nav ml-auto">
+
+                        <!-- Nav Item - Search Dropdown (Visible Only XS) -->
+                        <li class="nav-item dropdown no-arrow d-sm-none">
+                            <a class="nav-link dropdown-toggle" href="#" id="searchDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="fas fa-search fa-fw"></i>
+                            </a>
+                            <!-- Dropdown - Messages -->
+                            <div class="dropdown-menu dropdown-menu-right p-3 shadow animated--grow-in"
+                                aria-labelledby="searchDropdown">
+                                <form class="form-inline mr-auto w-100 navbar-search">
+                                    <div class="input-group">
+                                        <input type="text" class="form-control bg-light border-0 small"
+                                            placeholder="Search for..." aria-label="Search"
+                                            aria-describedby="basic-addon2">
+                                        <div class="input-group-append">
+                                            <button class="btn btn-primary" type="button">
+                                                <i class="fas fa-search fa-sm"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </li>
+
+                        <!-- Nav Item - Alerts -->
+                        <li class="nav-item dropdown no-arrow mx-1">
+                            <a class="nav-link dropdown-toggle" href="#" id="alertsDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="fas fa-bell fa-fw"></i>
+                                <!-- Counter - Alerts -->
+                                <span class="badge badge-danger badge-counter">3+</span>
+                            </a>
+                            <!-- Dropdown - Alerts -->
+                            <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in"
+                                aria-labelledby="alertsDropdown">
+                                <h6 class="dropdown-header">
+                                    Alerts Center
+                                </h6>
+                                <a class="dropdown-item d-flex align-items-center" href="#">
+                                    <div class="mr-3">
+                                        <div class="icon-circle bg-primary">
+                                            <i class="fas fa-file-alt text-white"></i>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="small text-gray-500">December 12, 2019</div>
+                                        <span class="font-weight-bold">A new monthly report is ready to download!</span>
+                                    </div>
+                                </a>
+                                <a class="dropdown-item d-flex align-items-center" href="#">
+                                    <div class="mr-3">
+                                        <div class="icon-circle bg-success">
+                                            <i class="fas fa-donate text-white"></i>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="small text-gray-500">December 7, 2019</div>
+                                        $290.29 has been deposited into your account!
+                                    </div>
+                                </a>
+                                <a class="dropdown-item d-flex align-items-center" href="#">
+                                    <div class="mr-3">
+                                        <div class="icon-circle bg-warning">
+                                            <i class="fas fa-exclamation-triangle text-white"></i>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="small text-gray-500">December 2, 2019</div>
+                                        Spending Alert: We've noticed unusually high spending for your account.
+                                    </div>
+                                </a>
+                                <a class="dropdown-item text-center small text-gray-500" href="#">Show All Alerts</a>
+                            </div>
+                        </li>
+
+                        <!-- Nav Item - Messages -->
+                        <li class="nav-item dropdown no-arrow mx-1">
+                            <a class="nav-link dropdown-toggle" href="#" id="messagesDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="fas fa-envelope fa-fw"></i>
+                                <!-- Counter - Messages -->
+                                <span class="badge badge-danger badge-counter">7</span>
+                            </a>
+                            <!-- Dropdown - Messages -->
+                            <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in"
+                                aria-labelledby="messagesDropdown">
+                                <h6 class="dropdown-header">
+                                    Message Center
+                                </h6>
+                                <a class="dropdown-item d-flex align-items-center" href="#">
+                                    <div class="dropdown-list-image mr-3">
+                                        <img class="rounded-circle" src="img/undraw_profile_1.svg" alt="...">
+                                        <div class="status-indicator bg-success"></div>
+                                    </div>
+                                    <div class="font-weight-bold">
+                                        <div class="text-truncate">Hi there! I am wondering if you can help me with a
+                                            problem I've been having.</div>
+                                        <div class="small text-gray-500">Emily Fowler · 58m</div>
+                                    </div>
+                                </a>
+                                <a class="dropdown-item d-flex align-items-center" href="#">
+                                    <div class="dropdown-list-image mr-3">
+                                        <img class="rounded-circle" src="img/undraw_profile_2.svg" alt="...">
+                                        <div class="status-indicator"></div>
+                                    </div>
+                                    <div>
+                                        <div class="text-truncate">I have the photos that you ordered last month, how
+                                            would you like them sent to you?</div>
+                                        <div class="small text-gray-500">Jae Chun · 1d</div>
+                                    </div>
+                                </a>
+                                <a class="dropdown-item d-flex align-items-center" href="#">
+                                    <div class="dropdown-list-image mr-3">
+                                        <img class="rounded-circle" src="img/undraw_profile_3.svg" alt="...">
+                                        <div class="status-indicator bg-warning"></div>
+                                    </div>
+                                    <div>
+                                        <div class="text-truncate">Last month's report looks great, I am very happy with
+                                            the progress so far, keep up the good work!</div>
+                                        <div class="small text-gray-500">Morgan Alvarez · 2d</div>
+                                    </div>
+                                </a>
+                                <a class="dropdown-item d-flex align-items-center" href="#">
+                                    <div class="dropdown-list-image mr-3">
+                                        <img class="rounded-circle" src="https://source.unsplash.com/Mv9hjnEUHR4/60x60"
+                                            alt="...">
+                                        <div class="status-indicator bg-success"></div>
+                                    </div>
+                                    <div>
+                                        <div class="text-truncate">Am I a good boy? The reason I ask is because someone
+                                            told me that people say this to all dogs, even if they aren't good...</div>
+                                        <div class="small text-gray-500">Chicken the Dog · 2w</div>
+                                    </div>
+                                </a>
+                                <a class="dropdown-item text-center small text-gray-500" href="#">Read More Messages</a>
+                            </div>
+                        </li>
+
+                        <div class="topbar-divider d-none d-sm-block"></div>
+
+                        <!-- Nav Item - User Information -->
+                        <li class="nav-item dropdown no-arrow">
+                            <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <span class="mr-2 d-none d-lg-inline text-gray-600 small">Douglas McGee</span>
+                                <img class="img-profile rounded-circle" src="img/undraw_profile.svg">
+                            </a>
+                            <!-- Dropdown - User Information -->
+                            <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
+                                aria-labelledby="userDropdown">
+                                <a class="dropdown-item" href="#">
+                                    <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
+                                    Profile
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    <i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>
+                                    Settings
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    <i class="fas fa-list fa-sm fa-fw mr-2 text-gray-400"></i>
+                                    Activity Log
+                                </a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">
+                                    <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
+                                    Logout
+                                </a>
+                            </div>
+                        </li>
+
+                    </ul>
+
+                </nav>
+                <!-- End of Topbar -->
+
+                <!-- Begin Page Content -->
+                <div class="container-fluid">
+
+                    <div class="company-formation">
+                        <div class="d-flex d-lg-block filter-box project-header bg-white edit_employee">
+                            <div class="mobile-close-overlay w-100 h-100" id="close-client-overlay"></div>
+                            <div class="project-menu">
+                                <ul class="-primary nav nav-tabs" role="tablist">
+                                    <li class="nav-item">
+                                        <a href="#company-detail"
+                                            class="nav-link text-dark-grey text-capitalize border-right-grey p-sub-menu ajax-tab nav-link-tab nav-company-detail-tab active"
+                                            data-toggle="tab"><span>Company Details</span></a>
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <a href="#entity_stakeholders"
+                                            class="nav-link text-dark-grey text-capitalize border-right-grey p-sub-menu ajax-tab nav-entity_stakeholders-tab"
+                                            data-toggle="tab"><span>Entity Stakeholder Documents </span></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="tab-content">
+                            <div class="tab-pane step active" id="company-detail" role="tabpanel">
+                                <div class="rowedit">
+                                    <div class="navigation__row">
+                                        <img src="https://occams.ai/app/public/user-uploads/app-logo/img_arrow_down.svg"
+                                            alt="Arrowdown" class="navigation__icon">
+                                        <a class="navigation__text ui text size-textlg"
+                                            href="javascript:void(0);">
+                                            Back</a>
+                                    </div>
+                                    <a href="avascript:void(0);"
+                                        class="flex-row-center-center navigation__edit-button ui button light_blue_800 size-sm fill round">Edit</a>
+                                </div>
+                                <div class="progress-form form-new-card">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="form-group my-3">
+                                                <label class="f-14 text-dark-grey mb-12" for="state">State</label>
+                                                <select id="rv-state" disabled="">
+                                                    <option value="">Select State</option>
+                                                    <option value="US-AL">Alabama</option>
+                                                    <option value="US-AK">Alaska</option>
+                                                    <option value="US-AZ">Arizona</option>
+                                                    <option value="US-AR">Arkansas</option>
+                                                    <option value="US-CA" selected="">California</option>
+                                                    <option value="US-CO">Colorado</option>
+                                                    <option value="US-CT">Connecticut</option>
+                                                    <option value="US-DE">Delaware</option>
+                                                    <option value="US-FL">Florida</option>
+                                                    <option value="US-GA">Georgia</option>
+                                                    <option value="US-HI">Hawaii</option>
+                                                    <option value="US-ID">Idaho</option>
+                                                    <option value="US-IL">Illinois</option>
+                                                    <option value="US-IN">Indiana</option>
+                                                    <option value="US-IA">Iowa</option>
+                                                    <option value="US-KS">Kansas</option>
+                                                    <option value="US-KY">Kentucky</option>
+                                                    <option value="US-LA">Louisiana</option>
+                                                    <option value="US-ME">Maine</option>
+                                                    <option value="US-MD">Maryland</option>
+                                                    <option value="US-MA">Massachusetts</option>
+                                                    <option value="US-MI">Michigan</option>
+                                                    <option value="US-MN">Minnesota</option>
+                                                    <option value="US-MS">Mississippi</option>
+                                                    <option value="US-MO">Missouri</option>
+                                                    <option value="US-MT">Montana</option>
+                                                    <option value="US-NE">Nebraska</option>
+                                                    <option value="US-NV">Nevada</option>
+                                                    <option value="US-NH">New Hampshire</option>
+                                                    <option value="US-NJ">New Jersey</option>
+                                                    <option value="US-NM">New Mexico</option>
+                                                    <option value="US-NY">New York</option>
+                                                    <option value="US-NC">North Carolina</option>
+                                                    <option value="US-ND">North Dakota</option>
+                                                    <option value="US-OH">Ohio</option>
+                                                    <option value="US-OK">Oklahoma</option>
+                                                    <option value="US-OR">Oregon</option>
+                                                    <option value="US-PA">Pennsylvania</option>
+                                                    <option value="US-RI">Rhode Island</option>
+                                                    <option value="US-SC">South Carolina</option>
+                                                    <option value="US-SD">South Dakota</option>
+                                                    <option value="US-TN">Tennessee</option>
+                                                    <option value="US-TX">Texas</option>
+                                                    <option value="US-UT">Utah</option>
+                                                    <option value="US-VT">Vermont</option>
+                                                    <option value="US-VA">Virginia</option>
+                                                    <option value="US-WA">Washington</option>
+                                                    <option value="US-WV">West Virginia</option>
+                                                    <option value="US-WI">Wisconsin</option>
+                                                    <option value="US-WY">Wyoming</option>
+                                                </select>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-6">
+                                            <div class="form-group my-3">
+                                                <label class="f-14 text-dark-grey mb-12" for="company-type">Company
+                                                    Type</label>
+                                                <select id="rv-company-type" disabled="">
+                                                    <option value="">Select Company Type</option>
+                                                    <option value="llc">LLC</option>
+                                                    <option value="s-corp">S Corporation</option>
+                                                    <option value="c-corp" selected="">C Corporation</option>
+                                                </select>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-6">
+                                            <div class="form-group my-3">
+                                                <label class="f-14 text-dark-grey mb-12" for="business_name">Business
+                                                    Name</label>
+                                                <input type="text" class="form-control height-35 f-14"
+                                                    id="rv-business_name" value="rest " readonly="" autocomplete="off">
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-6">
+                                            <div class="form-group my-3">
+                                                <label class="f-14 text-dark-grey mb-12"
+                                                    for="designator-select">Designator</label>
+                                                <input type="text" class="form-control height-35 f-14"
+                                                    id="rv-designator-select" value="Incorporated" readonly=""
+                                                    autocomplete="off">
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="state-fees">
+                                        <p id="rv-state-fee">State Filing Fee : <b>$100.00</b></p>
+                                        <p style="display:none;">your company's legal name : <span
+                                                id="rv-company-name-id"></span></p>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="form-group mt-3 col-sm-12 textarea-description">
+                                            <label for="purpose" class="f-14 text-dark-grey mb-12">Purpose of the
+                                                Company</label>
+                                            <textarea class="form-control" id="rv-purpose"
+                                                placeholder="Describe the primary purpose of your business or organization"
+                                                readonly=""></textarea>
+                                        </div>
+                                    </div>
+
+                                    <!-- Registered Agent -->
+                                    <div class="radio-combation">
+                                        <div class="radio-group">
+                                            <h5>Registered Agent Service</h5>
+                                            <div class="radio-container-parent">
+                                                <div class="d-flex gap-20">
+                                                    <div class="form-check">
+                                                        <label class="form-check-label">Use our Registered Agent Service
+                                                            (free for 1 year)</label>
+                                                        <input type="radio" class="form-check-input"
+                                                            id="rv-agent-service" value="provided" checked=""
+                                                            disabled="" autocomplete="off">
+                                                    </div>
+
+                                                    <div class="form-check">
+                                                        <label class="form-check-label">Provide my own Registered
+                                                            Agent</label>
+                                                        <input type="radio" class="form-check-input" id="rv-agent-own"
+                                                            value="own" autocomplete="off">
+                                                    </div>
+                                                </div>
+
+                                                <div class="row conditional-field" id="rv-agent-conditional-field">
+                                                    <div class="col-xl-5 col-lg-6 radio-container-cls0">
+                                                        <div class="form-group my-3">
+                                                            <input type="text" class="form-control height-35 f-14"
+                                                                placeholder="Registered Agent Name"
+                                                                id="rv-registered_agent_name" value="" readonly=""
+                                                                autocomplete="off">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xl-5 col-lg-6 radio-container-cls0">
+                                                        <div class="form-group my-3">
+                                                            <input type="text" class="form-control height-35 f-14"
+                                                                placeholder="Registered Agent Address"
+                                                                id="rv-registered_agent_address" value="" readonly=""
+                                                                autocomplete="off">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="radio-combation border-none">
+                                        <div class="radio-group">
+                                            <h5>Virtual Mailbox Service</h5>
+                                            <div class="radio-container-parent">
+                                                <div class="d-flex gap-20">
+                                                    <div class="form-check">
+                                                        <label class="form-check-label" for="mailbox-service">Use our
+                                                            Virtual Mailbox Service</label>
+                                                        <input type="radio" class="form-check-input"
+                                                            id="rv-mailbox-service" value="provided" checked=""
+                                                            disabled="" autocomplete="off">
+
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <label class="form-check-label" for="mailbox-own">Provide my own
+                                                            address</label>
+                                                        <input type="radio" class="form-check-input" id="mailbox-own"
+                                                            value="own" autocomplete="off">
+                                                    </div>
+                                                </div>
+
+                                                <div class="row conditional-field" id="rv-mailbox-conditional-field">
+                                                    <div class="col-xl-10 col-lg-12">
+                                                        <div class="form-group my-3">
+                                                            <input type="text" class="form-control height-35 f-14"
+                                                                placeholder="Alternate Mailing Address"
+                                                                id="rv-virtual_mailbox_address" value="" readonly=""
+                                                                autocomplete="off">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane step" id="entity_stakeholders" role="tabpanel">
+                            
+                                <div class="rowedit border-bottom-0">
+                                    <div class="navigation__row">
+                                        <img src="https://occams.ai/app/public/user-uploads/app-logo/img_arrow_down.svg"
+                                            alt="Arrowdown" class="navigation__icon">
+                                        <a class="navigation__text ui text size-textlg"
+                                            href="javascript:void(0);">
+                                            Back</a>
+                                    </div>
+
+                                    <div class="dashboard__members-summary">
+                                        <p class="dashboard__members-total">
+                                            Total Members: 5 </p>
+                                    </div>
+                                </div>
+
+                                <div class="dashboard__member-details">
+                                    <div class="dashboard__card">
+                                        <div class="user-profile">
+                                            <div class="user-profile__member">
+                                                <h1 class="user-profile__member-name">wdwd</h1>
+                                                <p class="dashboard__members-total">Shareholder</p>
+                                            </div>
+                                            <div class="user-profile__status_pending common_status_318">
+                                                <p class="user-profile__status-text_pending common_status_text_318">
+                                                    Pending</p>
+                                            </div>
+                                        </div>
+                                        <div class="dashboard__member-card">
+                                            <!-- ID Proof Upload -->
+                                            <div class="dashboard__member-proof dashboard__member-proof-id_proof-318">
+                                                <div class="dashboard__member-header">
+                                                    <label class="dashboard__member-title">ID Proof</label>
+                                                    <div
+                                                        class="user-profile__status_id_proof_318 user-profile__status_">
+                                                        <div
+                                                            class="user-profile__status_id_proof-dot_318 user-profile__status-dot_">
+                                                        </div>
+                                                        <p class="user-profile__status-text_" id="status_id_proof_318"
+                                                            data-status=""></p>
+                                                    </div>
+                                                </div>
+                                                <div
+                                                    class="dashboard__choose-file-proof dashboard__choose-id_proof-318">
+                                                    Choose files
+                                                    <input type="file" class="upload-file upload-file-318"
+                                                        data-type="id_proof" data-owner="318" data-id="0"
+                                                        autocomplete="off">
+                                                </div>
+                                            </div>
+
+                                            <!-- Photograph Upload -->
+                                            <div class="dashboard__member-proof dashboard__member-proof-photograph-318">
+                                                <div class="dashboard__member-header">
+                                                    <label class="dashboard__member-title">Photograph</label>
+                                                    <div
+                                                        class="user-profile__status_photograph_318 user-profile__status_">
+                                                        <div
+                                                            class="user-profile__status_photograph-dot_318 user-profile__status-dot_">
+                                                        </div>
+                                                        <p class="user-profile__status-text_" id="status_photograph_318"
+                                                            data-status=""></p>
+                                                    </div>
+                                                </div>
+                                                <div
+                                                    class="dashboard__choose-file-proof dashboard__choose-photograph-318">
+                                                    Choose files
+                                                    <input type="file" class="upload-file upload-file-318"
+                                                        data-type="photograph" data-owner="318" data-id="0"
+                                                        autocomplete="off">
+                                                </div>
+                                            </div>
+                                            <!-- Bank Statement Upload -->
+                                            <div
+                                                class="dashboard__member-proof dashboard__member-proof-bank_statement-318">
+                                                <div class="dashboard__member-header">
+                                                    <label class="dashboard__member-title">Bank Statement</label>
+                                                    <div
+                                                        class="user-profile__status_bank_statement_318 user-profile__status_">
+                                                        <div
+                                                            class="user-profile__status_bank_statement-dot_318 user-profile__status-dot_">
+                                                        </div>
+                                                        <p class="user-profile__status-text_"
+                                                            id="status_bank_statement_318" data-status=""></p>
+                                                    </div>
+                                                </div>
+                                                <div
+                                                    class="dashboard__choose-file-proof dashboard__choose-bank_statement-318">
+                                                    Choose files
+                                                    <input type="file" class="upload-file upload-file-318"
+                                                        data-type="bank_statement" data-owner="318" data-id="0"
+                                                        autocomplete="off">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="dashboard__card">
+                                        <div class="user-profile">
+                                            <div class="user-profile__member">
+                                                <h1 class="user-profile__member-name">qeeq</h1>
+                                                <p class="dashboard__members-total">Director</p>
+                                            </div>
+                                            <div class="user-profile__status_pending common_status_319">
+                                                <p class="user-profile__status-text_pending common_status_text_319">
+                                                    Pending</p>
+                                            </div>
+                                        </div>
+                                        <div class="dashboard__member-card">
+                                            <!-- ID Proof Upload -->
+                                            <div class="dashboard__member-proof dashboard__member-proof-id_proof-319">
+                                                <div class="dashboard__member-header">
+                                                    <label class="dashboard__member-title">ID Proof</label>
+                                                    <div
+                                                        class="user-profile__status_id_proof_319 user-profile__status_">
+                                                        <div
+                                                            class="user-profile__status_id_proof-dot_319 user-profile__status-dot_">
+                                                        </div>
+                                                        <p class="user-profile__status-text_" id="status_id_proof_319"
+                                                            data-status=""></p>
+                                                    </div>
+                                                </div>
+                                                <div
+                                                    class="dashboard__choose-file-proof dashboard__choose-id_proof-319">
+                                                    Choose files
+                                                    <input type="file" class="upload-file upload-file-319"
+                                                        data-type="id_proof" data-owner="319" data-id="0"
+                                                        autocomplete="off">
+                                                </div>
+                                            </div>
+
+                                            <!-- Photograph Upload -->
+                                            <div class="dashboard__member-proof dashboard__member-proof-photograph-319">
+                                                <div class="dashboard__member-header">
+                                                    <label class="dashboard__member-title">Photograph</label>
+                                                    <div
+                                                        class="user-profile__status_photograph_319 user-profile__status_">
+                                                        <div
+                                                            class="user-profile__status_photograph-dot_319 user-profile__status-dot_">
+                                                        </div>
+                                                        <p class="user-profile__status-text_" id="status_photograph_319"
+                                                            data-status=""></p>
+                                                    </div>
+                                                </div>
+                                                <div
+                                                    class="dashboard__choose-file-proof dashboard__choose-photograph-319">
+                                                    Choose files
+                                                    <input type="file" class="upload-file upload-file-319"
+                                                        data-type="photograph" data-owner="319" data-id="0"
+                                                        autocomplete="off">
+                                                </div>
+                                            </div>
+                                            <!-- Bank Statement Upload -->
+                                            <div
+                                                class="dashboard__member-proof dashboard__member-proof-bank_statement-319">
+                                                <div class="dashboard__member-header">
+                                                    <label class="dashboard__member-title">Bank Statement</label>
+                                                    <div
+                                                        class="user-profile__status_bank_statement_319 user-profile__status_">
+                                                        <div
+                                                            class="user-profile__status_bank_statement-dot_319 user-profile__status-dot_">
+                                                        </div>
+                                                        <p class="user-profile__status-text_"
+                                                            id="status_bank_statement_319" data-status=""></p>
+                                                    </div>
+                                                </div>
+                                                <div
+                                                    class="dashboard__choose-file-proof dashboard__choose-bank_statement-319">
+                                                    Choose files
+                                                    <input type="file" class="upload-file upload-file-319"
+                                                        data-type="bank_statement" data-owner="319" data-id="0"
+                                                        autocomplete="off">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="dashboard__card">
+                                        <div class="user-profile">
+                                            <div class="user-profile__member">
+                                                <h1 class="user-profile__member-name">efed</h1>
+                                                <p class="dashboard__members-total">President/CEO</p>
+                                            </div>
+                                            <div class="user-profile__status_pending common_status_320">
+                                                <p class="user-profile__status-text_pending common_status_text_320">
+                                                    Pending</p>
+                                            </div>
+                                        </div>
+                                        <div class="dashboard__member-card">
+                                            <!-- ID Proof Upload -->
+                                            <div class="dashboard__member-proof dashboard__member-proof-id_proof-320">
+                                                <div class="dashboard__member-header">
+                                                    <label class="dashboard__member-title">ID Proof</label>
+                                                    <div
+                                                        class="user-profile__status_id_proof_320 user-profile__status_">
+                                                        <div
+                                                            class="user-profile__status_id_proof-dot_320 user-profile__status-dot_">
+                                                        </div>
+                                                        <p class="user-profile__status-text_" id="status_id_proof_320"
+                                                            data-status=""></p>
+                                                    </div>
+                                                </div>
+                                                <div
+                                                    class="dashboard__choose-file-proof dashboard__choose-id_proof-320">
+                                                    Choose files
+                                                    <input type="file" class="upload-file upload-file-320"
+                                                        data-type="id_proof" data-owner="320" data-id="0"
+                                                        autocomplete="off">
+                                                </div>
+                                            </div>
+
+                                            <!-- Photograph Upload -->
+                                            <div class="dashboard__member-proof dashboard__member-proof-photograph-320">
+                                                <div class="dashboard__member-header">
+                                                    <label class="dashboard__member-title">Photograph</label>
+                                                    <div
+                                                        class="user-profile__status_photograph_320 user-profile__status_">
+                                                        <div
+                                                            class="user-profile__status_photograph-dot_320 user-profile__status-dot_">
+                                                        </div>
+                                                        <p class="user-profile__status-text_" id="status_photograph_320"
+                                                            data-status=""></p>
+                                                    </div>
+                                                </div>
+                                                <div
+                                                    class="dashboard__choose-file-proof dashboard__choose-photograph-320">
+                                                    Choose files
+                                                    <input type="file" class="upload-file upload-file-320"
+                                                        data-type="photograph" data-owner="320" data-id="0"
+                                                        autocomplete="off">
+                                                </div>
+                                            </div>
+                                            <!-- Bank Statement Upload -->
+                                            <div
+                                                class="dashboard__member-proof dashboard__member-proof-bank_statement-320">
+                                                <div class="dashboard__member-header">
+                                                    <label class="dashboard__member-title">Bank Statement</label>
+                                                    <div
+                                                        class="user-profile__status_bank_statement_320 user-profile__status_">
+                                                        <div
+                                                            class="user-profile__status_bank_statement-dot_320 user-profile__status-dot_">
+                                                        </div>
+                                                        <p class="user-profile__status-text_"
+                                                            id="status_bank_statement_320" data-status=""></p>
+                                                    </div>
+                                                </div>
+                                                <div
+                                                    class="dashboard__choose-file-proof dashboard__choose-bank_statement-320">
+                                                    Choose files
+                                                    <input type="file" class="upload-file upload-file-320"
+                                                        data-type="bank_statement" data-owner="320" data-id="0"
+                                                        autocomplete="off">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="dashboard__card">
+                                        <div class="user-profile">
+                                            <div class="user-profile__member">
+                                                <h1 class="user-profile__member-name">fdfd</h1>
+                                                <p class="dashboard__members-total">Treasurer/CFO</p>
+                                            </div>
+                                            <div class="user-profile__status_pending common_status_321">
+                                                <p class="user-profile__status-text_pending common_status_text_321">
+                                                    Pending</p>
+                                            </div>
+                                        </div>
+                                        <div class="dashboard__member-card">
+                                            <!-- ID Proof Upload -->
+                                            <div class="dashboard__member-proof dashboard__member-proof-id_proof-321">
+                                                <div class="dashboard__member-header">
+                                                    <label class="dashboard__member-title">ID Proof</label>
+                                                    <div
+                                                        class="user-profile__status_id_proof_321 user-profile__status_">
+                                                        <div
+                                                            class="user-profile__status_id_proof-dot_321 user-profile__status-dot_">
+                                                        </div>
+                                                        <p class="user-profile__status-text_" id="status_id_proof_321"
+                                                            data-status=""></p>
+                                                    </div>
+                                                </div>
+                                                <div
+                                                    class="dashboard__choose-file-proof dashboard__choose-id_proof-321">
+                                                    Choose files
+                                                    <input type="file" class="upload-file upload-file-321"
+                                                        data-type="id_proof" data-owner="321" data-id="0"
+                                                        autocomplete="off">
+                                                </div>
+                                            </div>
+
+                                            <!-- Photograph Upload -->
+                                            <div class="dashboard__member-proof dashboard__member-proof-photograph-321">
+                                                <div class="dashboard__member-header">
+                                                    <label class="dashboard__member-title">Photograph</label>
+                                                    <div
+                                                        class="user-profile__status_photograph_321 user-profile__status_">
+                                                        <div
+                                                            class="user-profile__status_photograph-dot_321 user-profile__status-dot_">
+                                                        </div>
+                                                        <p class="user-profile__status-text_" id="status_photograph_321"
+                                                            data-status=""></p>
+                                                    </div>
+                                                </div>
+                                                <div
+                                                    class="dashboard__choose-file-proof dashboard__choose-photograph-321">
+                                                    Choose files
+                                                    <input type="file" class="upload-file upload-file-321"
+                                                        data-type="photograph" data-owner="321" data-id="0"
+                                                        autocomplete="off">
+                                                </div>
+                                            </div>
+                                            <!-- Bank Statement Upload -->
+                                            <div
+                                                class="dashboard__member-proof dashboard__member-proof-bank_statement-321">
+                                                <div class="dashboard__member-header">
+                                                    <label class="dashboard__member-title">Bank Statement</label>
+                                                    <div
+                                                        class="user-profile__status_bank_statement_321 user-profile__status_">
+                                                        <div
+                                                            class="user-profile__status_bank_statement-dot_321 user-profile__status-dot_">
+                                                        </div>
+                                                        <p class="user-profile__status-text_"
+                                                            id="status_bank_statement_321" data-status=""></p>
+                                                    </div>
+                                                </div>
+                                                <div
+                                                    class="dashboard__choose-file-proof dashboard__choose-bank_statement-321">
+                                                    Choose files
+                                                    <input type="file" class="upload-file upload-file-321"
+                                                        data-type="bank_statement" data-owner="321" data-id="0"
+                                                        autocomplete="off">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="dashboard__card">
+                                        <div class="user-profile">
+                                            <div class="user-profile__member">
+                                                <h1 class="user-profile__member-name">fdfd</h1>
+                                                <p class="dashboard__members-total">Secretary</p>
+                                            </div>
+                                            <div class="user-profile__status_pending common_status_322">
+                                                <p class="user-profile__status-text_pending common_status_text_322">
+                                                    Pending</p>
+                                            </div>
+                                        </div>
+                                        <div class="dashboard__member-card">
+                                            <!-- ID Proof Upload -->
+                                            <div class="dashboard__member-proof dashboard__member-proof-id_proof-322">
+                                                <div class="dashboard__member-header">
+                                                    <label class="dashboard__member-title">ID Proof</label>
+                                                    <div
+                                                        class="user-profile__status_id_proof_322 user-profile__status_">
+                                                        <div
+                                                            class="user-profile__status_id_proof-dot_322 user-profile__status-dot_">
+                                                        </div>
+                                                        <p class="user-profile__status-text_" id="status_id_proof_322"
+                                                            data-status=""></p>
+                                                    </div>
+                                                </div>
+                                                <div
+                                                    class="dashboard__choose-file-proof dashboard__choose-id_proof-322">
+                                                    Choose files
+                                                    <input type="file" class="upload-file upload-file-322"
+                                                        data-type="id_proof" data-owner="322" data-id="0"
+                                                        autocomplete="off">
+                                                </div>
+                                            </div>
+
+                                            <!-- Photograph Upload -->
+                                            <div class="dashboard__member-proof dashboard__member-proof-photograph-322">
+                                                <div class="dashboard__member-header">
+                                                    <label class="dashboard__member-title">Photograph</label>
+                                                    <div
+                                                        class="user-profile__status_photograph_322 user-profile__status_">
+                                                        <div
+                                                            class="user-profile__status_photograph-dot_322 user-profile__status-dot_">
+                                                        </div>
+                                                        <p class="user-profile__status-text_" id="status_photograph_322"
+                                                            data-status=""></p>
+                                                    </div>
+                                                </div>
+                                                <div
+                                                    class="dashboard__choose-file-proof dashboard__choose-photograph-322">
+                                                    Choose files
+                                                    <input type="file" class="upload-file upload-file-322"
+                                                        data-type="photograph" data-owner="322" data-id="0"
+                                                        autocomplete="off">
+                                                </div>
+                                            </div>
+                                            <!-- Bank Statement Upload -->
+                                            <div
+                                                class="dashboard__member-proof dashboard__member-proof-bank_statement-322">
+                                                <div class="dashboard__member-header">
+                                                    <label class="dashboard__member-title">Bank Statement</label>
+                                                    <div
+                                                        class="user-profile__status_bank_statement_322 user-profile__status_">
+                                                        <div
+                                                            class="user-profile__status_bank_statement-dot_322 user-profile__status-dot_">
+                                                        </div>
+                                                        <p class="user-profile__status-text_"
+                                                            id="status_bank_statement_322" data-status=""></p>
+                                                    </div>
+                                                </div>
+                                                <div
+                                                    class="dashboard__choose-file-proof dashboard__choose-bank_statement-322">
+                                                    Choose files
+                                                    <input type="file" class="upload-file upload-file-322"
+                                                        data-type="bank_statement" data-owner="322" data-id="0"
+                                                        autocomplete="off">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.container-fluid -->
+
+            </div>
+            <!-- End of Main Content -->
+
+            <!-- Footer -->
+            <footer class="sticky-footer bg-white">
+                <div class="container my-auto">
+                    <div class="copyright text-center my-auto">
+                        <span>Copyright &copy; Your Website 2021</span>
+                    </div>
+                </div>
+            </footer>
+            <!-- End of Footer -->
+
+        </div>
+        <!-- End of Content Wrapper -->
+
+    </div>
+    <!-- End of Page Wrapper -->
+
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded" href="#page-top">
+        <i class="fas fa-angle-up"></i>
+    </a>
+
+    <!-- Logout Modal-->
+    <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                </div>
+                <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+                    <a class="btn btn-primary" href="login.html">Logout</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Core plugin JavaScript-->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for all pages-->
+    <script src="js/sb-admin-2.min.js"></script>
+
+    <!-- Page level plugins -->
+    <script src="vendor/chart.js/Chart.min.js"></script>
+
+    <!-- Page level custom scripts -->
+    <script src="js/demo/chart-area-demo.js"></script>
+    <script src="js/demo/chart-pie-demo.js"></script>
+
+    <script>
+        function redirectToCompanyFormation() {
+            // Replace this URL with the one you want to redirect to
+            window.location.href = "./company-formation.html";
+        }
+    </script>
+
+</body>
+
+</html>
