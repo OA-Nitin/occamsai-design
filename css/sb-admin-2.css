@@ -11520,7 +11520,7 @@ a:focus {
 }
 
 .topbar.navbar-light .navbar-nav .nav-item .nav-link:active {
-  color: #858796; 
+  color: #858796;
 }
 
 .sidebar {
@@ -11532,9 +11532,10 @@ a:focus {
 .sidebar .nav-item {
   position: relative;
   border-bottom: 1px solid #e6e6e6;
-    padding-bottom: 7.5px;
-    padding-top: 7.5px;
+  padding-bottom: 7.5px;
+  padding-top: 7.5px;
 }
+
 .sidebar .nav-item:hover {
   color: #fff !important;
   background: #0788be;
@@ -11960,7 +11961,7 @@ a:focus {
 
 .sidebar-dark .nav-item.active {
   color: #fff !important;
-    background: #0788be;
+  background: #0788be;
 }
 
 .sidebar-dark .nav-item.active .nav-link {
@@ -14527,7 +14528,8 @@ a:hover {
   color: inherit;
 }
 
-:active, :focus {
+:active,
+:focus {
   outline: none !important;
 }
 
@@ -14544,10 +14546,12 @@ a:hover {
   margin-top: 31px;
 }
 
-.form-control:disabled, .form-control[readonly], .progress-form select:disabled {
+.form-control:disabled,
+.form-control[readonly],
+.progress-form select:disabled {
   cursor: no-drop;
   background-color: #e9ecef !important;
-    opacity: 1;
+  opacity: 1;
 }
 
 .textarea-description textarea.form-control {
@@ -14565,8 +14569,7 @@ a:hover {
 .back-button {
   border: 1px solid var(--color-blue-004893, #004893);
   background: var(--color-white-ffffff, #FFFFFF);
-  display: flex
-;
+  display: flex;
   align-items: center;
   gap: 7px;
   padding: 20px;
@@ -15465,7 +15468,8 @@ a:hover {
   background-color: #e5e5e5;
   font-weight: 600;
   text-transform: uppercase;
-  font-size: 14px;6
+  font-size: 14px;
+  6
 }
 
 .table-title {
@@ -16006,4 +16010,22 @@ a:hover {
 
 .navigation__edit-button:hover {
   color: #fff;
+}
+
+.company__edit {
+  padding: 20px 0px;
+  gap: 28px;
+  display: flex;
+  align-self: stretch;
+  flex-direction: column;
+}
+
+.select-box input {
+  padding: 13px 35px;
+  width: 250px important;
+  height: 48px;
+  background: #FFFFFF;
+  border: 1px solid #99a0a6;
+  border-radius: 5px;
+  font-family: 'Inter';
 }
