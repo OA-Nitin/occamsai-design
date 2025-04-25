@@ -69,13 +69,13 @@
                     <span>Documents</span></a>
             </li>
 
-            <li class="nav-item">
+            <li class="nav-item active">
                 <a class="nav-link" href="service-list.html">
                     <i class="fas fa-fw fa-chart-area"></i>
                     <span>Services</span></a>
             </li>
 
-            <li class="nav-item active">
+            <li class="nav-item">
                 <a class="nav-link" href="setting.html">
                     <i class="fas fa-fw fa-chart-area"></i>
                     <span>Settings</span></a>
@@ -193,65 +193,7 @@
 
                 <!-- Begin Page Content -->
                 <div class="container-fluid">
-                    <div class="rowprofile">
-                        <div class="client-profile__container">
-                            <div class="settings__back-button">
-                                <h1 class="header__title">
-                                    Profile Settings</h1>
-                            </div>
-                            <form id="save-profile-data" method="POST" class="ajax-form" data-gtm-form-interact-id="0">
-                                <input type="hidden" name="_method" value="POST" autocomplete="off">
-                                <input type="hidden" name="_token" value="gAmXnOUnnjADOSLdpKZ3l7rzeij3QScTWjxUB6ku" autocomplete="off">
-                                <div class="settings__content">
-                                    <div class="rowlock_one">
-                                        <div class="profile__image-container">
-                                            <div class="profile__image-column">
-                                                <label for="profileImageInput">
-                                                                                            <img id="profilePreview" src="https://occams.ai/app/public/user-uploads/avatar/c8164403630f16f4e4f1f9f785b01f8c.png" alt="Profile" class="profile__image">
-                                                                                    </label>
-                                                <input type="file" name="image" id="profileImageInput" accept="image/png, image/jpeg, image/jpg" style="display: none;" autocomplete="off">
-                                            </div>
-                                            <p class="profile__image-description">
-                                                Recommended size<br>250x250 (pixels)</p>
-                                                <span id="profileError" class="seting_error-message"></span>
-                
-                                        </div>
-                                        <div class="profile__form-container">
-                                            <div class="form__fields-row">
-                                                <div class="form__field-2">
-                                                    <label class="form__label">Your Name <span class="form__label--name-span">*</span></label>
-                                                    <div class="form__input">
-                                                        <input type="text" placeholder="e.g. John Doe" name="name" id="name" value="BG Testting" autocomplete="off">
-                                                    </div>
-                                                    <span class="error-message"></span>
-                                                </div>
-                                                <div class="form__field-2">
-                                                    <label class="form__label">Your Email <span class="form__label--name-span">*</span></label>
-                                                    <div class="form__input"><input name="email" type="text" value="client@test.com" autocomplete="off"></div>
-                                                    <span class="error-message"></span>
-                                                </div>
-                                            </div>
-                                            <div class="form__field-container">
-                                                <div class="form__field-container-3">
-                                                    <label class="form__label">Your Password <span class="form__label--name-span">*</span></label>
-                                                    <div class="form__input"><input name="password" type="password" autocomplete="off" data-gtm-form-interact-field-id="0"></div>
-                                                    <span class="error-message"></span>
-                                                </div>
-                                                <p class="form__password-hint">
-                                                    Leave blank to keep the current password.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                
-                                    <div class="state-fees d-flex justify-content-end align-items-center">
-                                        <div class="next-back-btn ">
-                                            <button type="button" id="save-form" class="btn-next">SAVE </button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
+                    Content here
                 </div>
                 <!-- /.container-fluid -->
 
@@ -316,37 +258,6 @@
     <!-- Page level custom scripts -->
     <script src="js/demo/chart-area-demo.js"></script>
     <script src="js/demo/chart-pie-demo.js"></script>
-
-    <script>
-        
-    document.getElementById('profileImageInput').addEventListener('change', function(event) {
-        const file = event.target.files[0];
-        const errorMsg = document.getElementById('profileError');
-
-        if (file && file.type.startsWith('image/')) {
-            const img = new Image();
-            const reader = new FileReader();
-
-            reader.onload = function(e) {
-                img.src = e.target.result;
-            };
-
-            img.onload = function() {
-                if (img.width > 250 || img.height > 250) {
-                    errorMsg.textContent = "❌ Max image size allowed is 250x250 pixels.";
-                    document.getElementById('profilePreview').src = "https://occams.ai/app/public/user-uploads/app-logo/img_lock.svg";
-                    document.getElementById('profileImageInput').value = ""; // clear the file
-                } else {
-                    document.getElementById('profilePreview').src = img.src;
-                    errorMsg.textContent = "";
-                }
-            };
-
-            reader.readAsDataURL(file);
-        }
-    });
-
-    </script>
 
 </body>
 
