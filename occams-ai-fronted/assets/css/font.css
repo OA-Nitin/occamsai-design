@@ -1,0 +1,441 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+/* Mobile View   */
+
+@media only screen and (max-width:600px) {
+    .larger-title {
+        font-size: 2.5rem;
+        font-family: inter;
+        font-weight: 600;
+        line-height: 40px;
+    }
+
+    .heading-1-bold {
+        font-size: 1.5rem;
+        font-family: inter;
+        font-weight: 700;
+        line-height: 40px;
+    }
+
+    .heading-1-regular {
+        font-size: 1.5rem;
+        font-family: inter;
+        font-weight: 400;
+        line-height: 40px;
+    }
+
+    .heading-2 {
+        font-size: 1.5rem;
+        font-family: inter;
+        font-weight: 600;
+        line-height: 30px;
+    }
+
+    .heading-3 {
+        font-family: inter;
+        font-weight: 700;
+        font-size: 1.5rem;
+        line-height: 34px;
+    }
+
+    .heading-4 {
+        font-family: inter;
+        font-weight: 600;
+        font-size: 1.25rem;
+        line-height: 24px;
+    }
+
+    .subheadline_light {
+        font-family: inter;
+        font-weight: 300;
+        font-size: 1rem;
+        line-height: 22px;
+    }
+
+    .subheadline_medium {
+        font-family: inter;
+        font-weight: 500;
+        font-size: 1rem;
+        line-height: 22px;
+    }
+
+    .caption-1 {
+        font-family: inter;
+        font-weight: 400;
+        line-height: 20px;
+        font-size: 1rem;
+    }
+
+    .caption-2 {
+        font-family: inter;
+        font-weight: 400;
+        font-size: 0.87rem;
+        line-height: 22px;
+    }
+
+    .body-text-1 {
+        font-family: inter;
+        font-weight: 400;
+        line-height: 34px;
+        font-size: 1rem;
+    }
+
+    .body-text-2 {
+        font-family: inter;
+        font-weight: 300;
+        line-height: 20px;
+        font-size: 0.87rem;
+    }
+
+    .body-text-3 {
+        font-family: inter;
+        font-weight: 400;
+        line-height: 35px;
+        font-size: 1rem;
+        letter-spacing: 1px;
+    }
+
+    .cta-font {
+        font-family: inter;
+        font-weight: 400;
+        font-size: 0.875rem;
+    }
+
+    .navigation-list li ul li {}
+
+}
+
+
+/* Tablet view  */
+
+@media only screen and (min-width:601px) and (max-width:1024px) {
+    .larger-title {
+        font-size: 3.37rem;
+        font-family: inter;
+        font-weight: 600;
+        line-height: 65px;
+    }
+
+    .heading-1-bold {
+        font-size: 2.25rem;
+        font-family: inter;
+        font-weight: 700;
+        line-height: 60px;
+    }
+
+    .heading-1-regular {
+        font-size: 2.25rem;
+        font-family: inter;
+        font-weight: 400;
+        line-height: 60px;
+    }
+
+    .heading-2 {
+        font-size: 2.12rem;
+        font-family: inter;
+        font-weight: 600;
+        line-height: 40px;
+    }
+
+    .heading-3 {
+        font-family: inter;
+        font-weight: 700;
+        font-size: 1.62rem;
+        line-height: 30px;
+    }
+
+    .heading-4 {
+        font-family: inter;
+        font-weight: 600;
+        font-size: 1.62rem;
+        line-height: 32px;
+    }
+
+    .subheadline_light {
+        font-family: inter;
+        font-weight: 300;
+        font-size: 1.12rem;
+        line-height: 22px;
+    }
+
+    .subheadline_medium {
+        font-family: inter;
+        font-weight: 500;
+        font-size: 1rem;
+        line-height: 22px;
+    }
+
+    .caption-1 {
+        font-family: inter;
+        font-weight: 400;
+        line-height: 20px;
+        font-size: 1rem;
+    }
+
+    .caption-2 {
+        font-family: inter;
+        font-weight: 400;
+        font-size: 0.75rem;
+        line-height: 18px;
+    }
+
+    .navigation {
+        font-family: inter;
+        font-weight: 600;
+        font-size: 0.87rem;
+    }
+
+    .body-text-1 {
+        font-family: inter;
+        font-weight: 400;
+        line-height: 26px;
+        font-size: 1rem;
+    }
+
+    .body-text-2 {
+        font-family: inter;
+        font-weight: 300;
+        line-height: 22px;
+        font-size: 1rem;
+    }
+    .body-text-3 {
+        font-family: inter;
+        font-weight: 400;
+        line-height: 44px;
+        font-size: 1.125rem;
+        letter-spacing: 1px;
+    }
+    .cta-font {
+        font-family: inter;
+        font-weight: 400;
+        font-size: 0.87rem;
+    }
+
+}
+
+/* laptop View  */
+
+@media only screen and (min-width:1025px) and (max-width:1600px) {
+    .larger-title {
+        font-size: 3.37rem;
+        font-family: inter;
+        font-weight: 600;
+        line-height: 68px;
+    }
+
+    .heading-1-bold {
+        font-size: 2.5rem;
+        font-family: inter;
+        font-weight: 700;
+        line-height: 60px;
+    }
+
+    .heading-1-regular {
+        font-size: 2.5rem;
+        font-family: inter;
+        font-weight: 400;
+        line-height: 60px;
+    }
+
+    .heading-2 {
+        font-size: 2.12rem;
+        font-family: inter;
+        font-weight: 600;
+        line-height: 40px;
+    }
+
+    .heading-3 {
+        font-family: inter;
+        font-weight: 700;
+        font-size: 1.87rem;
+        line-height: 36px;
+    }
+
+    .heading-4 {
+        font-family: inter;
+        font-weight: 600;
+        font-size: 1.62rem;
+        line-height: 30px;
+    }
+
+    .subheadline_light {
+        font-family: inter;
+        font-weight: 300;
+        font-size: 1.12rem;
+        line-height: 22px;
+    }
+
+    .subheadline_medium {
+        font-family: inter;
+        font-weight: 500;
+        font-size: 1.12rem;
+        line-height: 22px;
+    }
+
+    .caption-1 {
+        font-family: inter;
+        font-weight: 400;
+        line-height: 20px;
+        font-size: 1.12rem;
+    }
+
+    .caption-2 {
+        font-family: inter;
+        font-weight: 400;
+        font-size: 0.87rem;
+        line-height: 24px;
+    }
+
+    .navigation {
+        font-family: inter;
+        font-weight: 600;
+        font-size: 0.87rem;
+    }
+
+    .body-text-1 {
+        font-family: inter;
+        font-weight: 400;
+        line-height: 34px;
+        font-size: 1rem;
+    }
+
+    .body-text-2 {
+        font-family: inter;
+        font-weight: 300;
+        line-height: 22px;
+        font-size: 0.87rem;
+    }
+    .body-text-3 {
+        font-family: inter;
+        font-weight: 400;
+        line-height: 45px;
+        font-size: 0.875rem;
+        letter-spacing: 1px;
+    }
+    .cta-font {
+        font-family: inter;
+        font-weight: 400;
+        font-size: 0.87rem;
+    }
+    .page-nav {
+        font-family: inter;
+        font-size: 1rem;
+        font-weight: 400;
+    }
+
+}
+
+/* Desktop view  */
+
+@media only screen and (min-width: 1601px) and (max-width:2600px) {
+
+    .larger-title {
+        font-size: 4.37rem;
+        font-family: inter;
+        font-weight: 600;
+        line-height: 85px;
+    }
+
+    .heading-1-bold {
+        font-size: 2.75rem;
+        font-family: inter;
+        font-weight: 700;
+        line-height: 72px;
+    }
+
+    .heading-1-regular {
+        font-size: 2.75rem;
+        font-family: inter;
+        font-weight: 400;
+        line-height: 72px;
+    }
+
+    .heading-2 {
+        font-size: 2.5rem;
+        font-family: inter;
+        font-weight: 600;
+        line-height: 48px;
+    }
+
+    .heading-3 {
+        font-family: inter;
+        font-weight: 700;
+        font-size: 2rem;
+        line-height: 48px;
+    }
+
+    .heading-4 {
+        font-family: inter;
+        font-weight: 600;
+        font-size: 1.75rem;
+        line-height: 42px;
+    }
+
+    .subheadline_light {
+        font-family: inter;
+        font-weight: 300;
+        font-size: 1.37rem;
+        line-height: 30px;
+    }
+
+    .subheadline_medium {
+        font-family: inter;
+        font-weight: 500;
+        font-size: 1.12rem;
+        line-height: 30px;
+    }
+
+    .caption-1 {
+        font-family: inter;
+        font-weight: 400;
+        line-height: 26px;
+        font-size: 1.25rem;
+    }
+
+    .caption-2 {
+        font-family: inter;
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 26px;
+    }
+
+    .navigation {
+        font-family: inter;
+        font-weight: 600;
+        font-size: 1rem;
+    }
+
+    .body-text-1 {
+        font-family: inter;
+        font-weight: 400;
+        line-height: 36px;
+        font-size: 1.25rem;
+    }
+
+    .body-text-2 {
+        font-family: inter;
+        font-weight: 300;
+        line-height: 26px;
+        font-size: 1.12rem;
+    }
+    .body-text-3 {
+        font-family: inter;
+        font-weight: 400;
+        line-height: 55px;
+        font-size: 1.125rem;
+        letter-spacing: 1px;
+    }
+
+    .cta-font {
+        font-family: inter;
+        font-weight: 400;
+        font-size: 1.125rem;
+    }
+    .page-nav {
+        font-family: inter;
+        font-size: 1rem;
+        font-weight: 400;
+    }
+
+}
