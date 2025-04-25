@@ -16021,11 +16021,138 @@ a:hover {
 }
 
 .select-box input {
-  padding: 13px 35px;
-  width: 250px important;
-  height: 48px;
-  background: #FFFFFF;
-  border: 1px solid #99a0a6;
+    padding: 13px 35px;
+    width: 250px important;
+    height: 48px;
+    background: #FFFFFF;
+    border: 1px solid #99a0a6;
+    border-radius: 5px;
+    font-family: 'Inter';
+}
+
+.client-profile__container {
+  background-color: #ffffff;
+  padding: 10px;
   border-radius: 5px;
-  font-family: 'Inter';
+  border: 1px solid #e5e5e5;
+}
+
+.settings__back-button {
+  background-color: #ffffff;
+  display: flex;
+  padding: 28px 30px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.header__title {
+  color: #000000;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.settings__content {
+  gap: 40px;
+  display: flex;
+  flex-direction: column;
+  padding: 26px;
+}
+
+.rowlock_one {
+  gap: 44px;
+  display: flex;
+  align-items: center;
+}
+
+.profile__image-container {
+  gap: 10px;
+  display: flex;
+  width: 16%;
+  flex-direction: column;
+}
+
+.profile__image-column {
+  background-color: #e6e6e6;
+  padding: 0;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.profile__image-column:hover {
+  opacity: 0.9;
+}
+
+.profile__image-column label {
+  margin-bottom: 0;
+  cursor: pointer;
+}
+
+.profile__image {
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+}
+
+.profile__image-description {
+  color: #999999;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  margin-bottom: 0;
+}
+
+.seting_error-message {
+  color: red;
+  font-size: 13px;
+  margin-top: 5px;
+  text-align: center;
+}
+
+.profile__form-container {
+  gap: 36px;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.form__fields-row {
+  gap: 40px;
+  display: flex;
+}
+
+.form__label--name-span {
+  color: #ff0000;
+}
+
+.form__password-hint {
+  color: #999999;
+  letter-spacing: -0.16px;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: italic;
+  margin-bottom: 0;
+}
+
+.form__field-container {
+  gap: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.form__field-container-3 {
+  gap: 0px;
+  display: flex;
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-start;
 }
